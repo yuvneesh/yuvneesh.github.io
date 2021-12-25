@@ -3,3 +3,9 @@
     align-items: center;
     justify-content: center;
   }
+
+.Link {
+    font-size: 50px;
+    color: rgb(165, 101, 224);
+    text-align: center;
+}
