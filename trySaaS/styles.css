@@ -10,3 +10,10 @@
     color: rgb(165, 101, 224);
     text-align: center;
 }
+
+.TitleBar {
+  background : rgb(132, 178, 229);
+  color : black;
+  font-size: 40px;
+  text-align: center;
+}
