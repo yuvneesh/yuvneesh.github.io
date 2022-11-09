@@ -4,11 +4,49 @@
         <meta charset="UTF-8">
         <title>Getting Started with LaTeX</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+                src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
     </head>
 
     <body>
         <div class="title">
             Getting Started with LaTeX
         </div>
+
+        <div class="content">
+
+            <div class="section"> <!--- Introduction -->
+                Introduction
+            </div>
+
+            <div class="para">
+                LaTeX is a typesetting system that is widely used for writing and publishing scientific documents.
+                It allows you to write mathematical symbols and equations. For example, the solution of quadratic equation is defined as: <br>
+                <p>
+                    When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+                    \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\]
+                </p>
+                <br>
+                For this webpage, MathJX was used to render LaTeX. The above paragraph was written in plain text as: <br>
+                <p>
+                When \\(a \ne 0\), there are two solutions to \\(ax^2 + bx + c = 0\) and they are
+                \\[x = {-b \pm \sqrt{b^2-4ac} \\over 2a}\]
+                </p>
+
+                <p>
+                    As it can be seen, any set of words that we intend to render as LaTeX, has to be enclosed between \\( and \\)
+                    The common symbols as alphabets, addition (+), subtraction (-), equal sign (=) are typed as is. While for more complex symbols, abbreviations are used to render the symbols. 
+                    These abbreviations are generally intuitive such as for \( \pm \) the equivalent text is \\( \pm \). More of these symbols will be discussed in detail in following sections.
+                </p>
+            </div>
+
+            <div class="section">
+
+            </div>
+        </div>
+
+
     </body>
 </html>
