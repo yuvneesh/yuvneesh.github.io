@@ -31,8 +31,9 @@
                 <br>
                 For this webpage, MathJX was used to render LaTeX. The above paragraph was written in plain text as: <br>
                 <p>
-                When \\(a \ne 0\), there are two solutions to \\(ax^2 + bx + c = 0\) and they are
-                \\[x = {-b \pm \sqrt{b^2-4ac} \\over 2a}\]
+                    <code>
+                        When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are: \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\]
+                    </code>
                 </p>
 
                 <p>
@@ -43,7 +44,22 @@
             </div>
 
             <div class="section">
+                Initial Setup
+            </div>
 
+            <div class="para">
+                There are multiple ways that can be used to write in LaTeX. I will be installing MacTex locally on MacOS. <br>
+                <a href="https://tug.org/mactex/">Here is a link to download the setup files for MacTex</a>
+                <br>
+                Follow the installation instructions. <br>
+                After the installation is complete, launch TeXShop.<br>
+                We begin the document with what is referred as the Top Matter. This section is for the information about the document such as the document type, authors, date, etc.
+                We startt with the <span>&#92;</span>documentclass command. A documentclass defines the layout of the document. In this case I will be using article as the class.
+                <span>&#92;</span>begin command marks the start of the document. <span>&#92;</span>title <span>&#92;</span>author <span>&#92;</span>date commands are used to build the title of the document and 
+                <span>&#92;</span>maketitle is the command to do it.
+                Press Command + T keys to render the first page of the document. A preview window will open. 
+                <br>
+                    <img src="TexStart.png" alt="Screenshot of Top Matter and output">
             </div>
         </div>
 
