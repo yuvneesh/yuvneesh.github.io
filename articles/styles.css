@@ -30,3 +30,14 @@ img {
     height:80%;
     align-items: center;
   }
+
+  .commands {
+    border-style: solid;
+    margin:25px 0;
+    min-width: 300px;
+    text-align: center;
+  }
+
+  .commands thead tr {
+    background-color:lavenderblush;
+  }
