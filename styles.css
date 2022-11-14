@@ -24,6 +24,10 @@
   line-height: 40px;
   font-size: 20px;
 }
+a.NavLinkDiv {
+display: block;
+text-decoration: none;
+}
 
 .bio {
   font-size: 20px;
@@ -37,7 +41,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a:link {
+a.article {
   color: green;
   background-color: transparent;
   text-decoration: underline;
