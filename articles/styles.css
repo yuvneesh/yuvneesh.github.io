@@ -48,3 +48,21 @@ img {
   .commands thead tr {
     background-color:lavenderblush;
   }
+
+.codeblock {
+    border: 1px solid black;
+    margin: 2%;
+    padding: 1%;
+    width: 90%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .rendered {
+    border: 1px solid green;
+    margin: 2%;
+    padding: 1%;
+    width: 90%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
