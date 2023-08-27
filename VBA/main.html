@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>VBA</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+                src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    </head>
+
+    <body>
+        <h1 class="title">
+            <b> Visual Basic for Applications</b>
+        </h1>
+        <div class="date">
+            August 26, 2023
+        </div>
+        <div class="content">
+
+            <div class="section"> Introduction </div>
+            <div class="para">
+                VBA is the first language that I used to solve a real-life problem. I have been learning and 
+                working with VBA for about 4 years now. Recently, my friend asked me to introduce him to VBA.
+                I decided to document the process. Teaching someone a language is a first for me. My plan is to
+                start with the bare minimum and expose him to the exploring, researching and learning. Ideally, 
+                once he is comfortable with programming basic scripts, I will refer to some of the most common 
+                course-plan structures for learning a language. <br>
+            </div>
+            
+            <div class="section"> The VBA Workspace</div>
+            <div class="para">
+                1. With any excel workbook open, press Alt+F11 (Mac: Option + F11) <br>
+                2. In the left project explorer pane, right click and insert Module. <br>
+                3. We can bring programmin this new module "Module1"<br>
+            </div>
+            <div class="section"> Hello World </div>
+            <div class="para">
+                Traditionally, the first program that one learns in any language is how to 'print' "Hello World"
+                In the module, paste the follwing code and press F5.
+            </div>
+
+                <div class="codeblock">
+                <pre><code>Sub HelloWorld()<br><br>    Debug.Print("Hello World")<br><br>End Sub</code></pre>
+                </div>
+                
+                <div class="para">At this stage, pressing F5 will appear to do nothing. The reason is that 
+                    the screen where VBA prints is hidden by default. To view it, click on view in the menu bar 
+                    and select Immediate Window. You should be able to see the print outputs from your previous attempts.
+                    On a Mac, this is how things should look like at this point: <br>
+                    <img src="VBA1.png" alt="VBA Screen">
+                </div>
+        </div>
+    </body>
+</html>

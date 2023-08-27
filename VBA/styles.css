@@ -1,0 +1,67 @@
+.title {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+    color: mediumpurple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.date {
+    text-align: center;
+    margin-top: 0;
+    margin-left:5%;
+}
+
+.content {
+    margin: 5%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section {
+    font-size: 25px;
+    color: mediumpurple;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.para {
+    margin-top:20px;
+    font-size: 16px;
+    line-height:1.5;
+}
+
+img {
+    width:100%;
+    height:100%;
+    align-items: center;
+  }
+
+  .commands {
+    border-style: solid;
+    margin:25px 0;
+    min-width: 300px;
+    text-align: center;
+  }
+
+  .commands thead tr {
+    background-color:lavenderblush;
+  }
+
+
+  pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+  }
+
+  .rendered {
+    border: 1px solid green;
+    margin: 2%;
+    padding: 1%;
+    width: 90%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
