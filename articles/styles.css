@@ -4,7 +4,7 @@ body {
   color: #555;
   background-color: #fafafa;
   padding: 0;
-  margin: 2% 10%;
+  margin: 2% 20%;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 
 .title {
   color: #2c3e50; /* Deep Blue color for title */
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 20px;
   text-align: center;
   padding: 20px;
