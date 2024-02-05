@@ -78,4 +78,6 @@ img {
   border-color: #8bc34a; /* Green border for rendered block */
 }
 
-
+code {
+  white-space: pre;
+}
